@@ -1,0 +1,15 @@
+Current workflow:
+-mean projection
+-subtract mean projection from original movie
+-min projection from subtracted movie
+-otsu threshold from min projection
+-threshold subtracted movie
+-binary closing
+
+From here on:
+-Maybe area closing?
+-Or erosion?
+-Or binary opening?
+
+After that labeling. Think about what connectivity.
+Then check for tracking
